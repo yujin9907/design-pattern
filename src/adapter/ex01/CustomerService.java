@@ -23,7 +23,7 @@ public class CustomerService {
         sendEmail(); // 책임을 무조건 하나만 들고 있게 하기 위해서 빼기
     }
     public void sendEmail() {
-        // email.send(); // 이 기능이 구현되기 전까지 딜레이?
+        // email.send(); // 이 기능이 구현되기 전까지 딜레이? ㄴㄴ 목크를 만들어서
         String result = emailSend.send();
         insertResultEmail();
     }
